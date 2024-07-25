@@ -1,0 +1,107 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #380000;
+    color: #ffffff;
+    display:flex;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+position: fixed;
+    position: relative;
+left: 500px;
+top: 0px;
+}
+
+nav ul li {
+    margin-right: 20px;
+    display: inline-flex;
+    position: fixed;
+    position: relative;
+left: 500px;
+top: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #575757;
+    position: fixed;
+    position: relative;
+    left: -650px;
+    top: -5px;  
+}
+
+nav ul li a:hover {
+    background-color: #ff5959;
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #380000;
+    color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* Main Image Styles */
+.main-image {
+    max-width: 100%;
+    width: 100%;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    margin-bottom: 10px;
+}
+.about P {
+    text-align: center;
+}
+.Raw-image {
+    max-width: 100%;
+    width: 22%;
+    border-radius: 1px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.2); 
+    margin-bottom: 10px;
+    border: 5px solid black;
+}
+.about P {
+    text-align: center;
+}
+
